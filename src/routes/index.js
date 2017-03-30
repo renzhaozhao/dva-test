@@ -5,6 +5,9 @@ import './index.less'
 
 const IndexPage = () => (
   <div className="container box">
+    <div style={{ textAlign: 'center' }}>
+      <img src={require('../assets/yay.jpg')} alt="avatar" style={{ width: 200 }} />
+    </div>
     <Card title="资源导航">
       <p>
         <Link to="count">计数器</Link>
